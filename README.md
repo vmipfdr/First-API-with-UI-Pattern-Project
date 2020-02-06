@@ -1,4 +1,4 @@
-[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
+![Mars Rover Curiousity Surface Picture](https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01004/opgs/edr/fcam/FLB_486615455EDR_F0481570FHAZ00323M_.JPG)
 
 # UI Element Project
 
@@ -12,57 +12,10 @@ JavaScript with your skills building out user interfaces with HTML and CSS.
 - Programming with JavaScript
 - Working with the DOM
 
-## Instructions
-
-1. Create a new repository on GitHub (not GitHub Enterprise).
-1. Clone down the repository and complete your work in there.
-1. Fulfill the listed requirements below.
-
-Please turn in your submission by the deadline on your cohort calendar.
-
 ## UI Pattern
 
 You will need to pick a UI pattern from the list below and an API. You'll then
 build out the UI pattern you chose to work with the API you chose.
-
-### List of UI Patterns
-
-You may choose from the following list of UI patterns:
-
-#### Modal
-
-When a user clicks on a link, a box should appear in the center of the screen
-with the details for the item that the user clicks on. The box should have some
-way for the user to close the box and see the full list of items.
-
-![modal](https://media.git.generalassemb.ly/user/8618/files/3422a180-fa60-11e9-82a9-3e11fbe9da37)
-
-#### Hamburger Menu
-
-There should be a hamburger icon in the top right corner. When a user clicks on
-it, a menu should appear from off of the right side of the screen with a list of
-menu items. When the user clicks on the menu item, the contents in the center of
-the page should change to show the details for that item. The user should be
-able to see which item is currently selected. The user should be able to close
-the menu by clicking the hamburger menu again.
-
-![hamburger menu](https://media.git.generalassemb.ly/user/8618/files/3422a180-fa60-11e9-9618-1feef7e6af49)
-
-#### Accordion
-
-The user should see a list of items. When they click on one, the space below the
-item expands to reveal the content related to that item. When the user clicks on
-the item again, the revealed content becomes hidden.
-
-![accordion](https://media.git.generalassemb.ly/user/8618/files/338a0b00-fa60-11e9-8e27-d325411fa623)
-
-#### Tabs
-
-The user sees a row of tabs above a content area. When the user clicks on one of
-the tabs, the content in the content area changes based on which tab the user
-clicked.
-
-![tabs](https://media.git.generalassemb.ly/user/8618/files/34bb3800-fa60-11e9-85d0-25aa75119230)
 
 #### Slider
 
@@ -79,18 +32,6 @@ the user from clicking those buttons.
 
 This is a non-exhaustive list:
 
-1. Marvel: developer.marvel.com
-1. Star Wars: swapi.co
-1. Weather: openweathermap.org/api
-1. News: newsapi.org
-1. Giphy: developers.giphy.com
-1. Pokemon: http://pokeapi.co
-1. Google Books: developers.google.com/books
-1. City of Chicago: data.cityofchicago.org
-1. Beer: brewerydb.com/developers
-1. Chuck Norris: http://www.icndb.com
-1. Rick and Morty: rickandmortyapi.com/documentation/#rest
-1. Dad Jokes: icanhazdadjoke.com/api
 1. NASA: api.nasa.gov
 
 There is also
@@ -116,9 +57,3 @@ Your project should meet the following requirements:
   template_)
 - Shows a good commit history with frequent commits. We're looking for lots of
   small commits.
-
-## [License](LICENSE)
-
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
-    alternative licensing, please contact legal@ga.co.
