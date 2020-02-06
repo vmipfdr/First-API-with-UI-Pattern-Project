@@ -1,6 +1,10 @@
 body {
     margin: 0;
     font-family: Helvetica, 'Source Sans Pro', sans-serif;
+    background-image: url('PIA17273_artist-concept-plain.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
 
 .header {
@@ -43,7 +47,9 @@ input[type="text"] {
 img {
     height: 500px;
     width: auto;
-    box-shadow: 10px 10px 32px -12px rgba(0,0,0,0.75);
+    margin: 25px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 42px -12px rgba(0,0,0,0.75);
 }
 
 ul {
@@ -62,3 +68,8 @@ ul {
     box-shadow: 20px 20px 32px -12px rgba(0,0,0,0.75);
 }
 
+@media screen {
+    .randomMars {
+        background-size: 75%;
+    }
+}
