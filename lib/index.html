@@ -14,16 +14,26 @@
             <p>I threw together a simple API that pulls from Mars Rovers [Curiosity and Opportunity].</p>
         </header>
         <main>
-            <div class="buttons">
-            	<div class="opportunitybtn">
-            		<div class="randomOpportunityMars"><img src="" class="randomMarsPic"></div>
-					<button class="randomOpportunityButton">Get Another Opportunity Pic!</button>
-				</div>
-				<!-- <div class="randomPic"><img src="" class="randomMarsPic"></div> -->
-				<div class="curiositybtn">
-					<div class="randomCuriosityMars"><img src="" class="randomMarsPic"></div>
-					<button class="randomCuriosityButton">Get Another Curiosity Pic!</button>
-				</div>
+			<div class="slideshow-container">
+			
+			  <!-- Full-width images with number and caption text -->
+			  <div class="mySlides fade">
+			    <div class="rovertext">'Opportunity' / 'Curiosity'</div>
+			    <img src="" class="randomMarsPic" style="width:100%">
+<!-- 			    <img src="" class="randomOpportunityMars" style="width:100%"> -->
+			    <div class="opportunityText"></div>
+			  </div>
+			
+			  <div class="mySlides fade">
+			    <div class="rovertext">'Opportunity' / 'Curiosity'</div>
+			    <img src="" class="randomMarsPic" style="width:100%">
+<!-- 			    <img src="randomCuriosityMars" style="width:100%"> -->
+			    <div class="curiosityText"></div>
+			  </div>
+			
+			  <!-- Next and previous buttons -->
+			  <a class="randomOpportunityButton">&#10094;</a>
+			  <a class="randomCuriosityButton">&#10095;</a>
 			</div>
         </main>
         <footer>
@@ -32,3 +42,19 @@
         <script src="script.js"></script>
     </body>
 </html>
+
+
+
+
+<!-- 
+            <div class="buttons">
+            	<div class="opportunitybtn">
+            		<div class="randomOpportunityMars"><img src="" class="randomMarsPic"></div>
+					<button class="randomOpportunityButton">Get Another Opportunity Pic!</button>
+				</div>
+				<div class="randomPic"><img src="" class="randomMarsPic"></div>
+				<div class="curiositybtn">
+					<div class="randomCuriosityMars"><img src="" class="randomMarsPic"></div>
+					<button class="randomCuriosityButton">Get Another Curiosity Pic!</button>
+				</div>
+			</div> -->
