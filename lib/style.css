@@ -27,11 +27,11 @@ main {
 }
 
 button {
-    margin: 50px auto;
+    margin: 20px auto;
     background-color: rgba(15,26,91,1);
     color: white;
     font-size: 25px;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 7px 7px 7px 7px;
     padding: 13px;
     box-shadow: 10px 10px 32px -12px rgba(0,0,0,0.75);
 }
@@ -58,6 +58,12 @@ ul {
     
 }
 
+.buttons {
+    display: flex;
+    justify-content: space-around;
+
+}
+
 .footer {
     background-color: rgba(15,26,51,1);
     color: grey;
@@ -68,8 +74,10 @@ ul {
     box-shadow: 20px 20px 32px -12px rgba(0,0,0,0.75);
 }
 
-@media screen {
+
+/*add appropriate media queries for responsive*/
+/*@media screen {
     .randomMars {
         background-size: 75%;
-    }
+    }*/
 }

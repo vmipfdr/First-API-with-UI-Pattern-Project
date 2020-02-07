@@ -6,17 +6,25 @@
         <title>Mars Rover Pics API</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header class="header">
             <h1 class="title">Mars Rover Pics API</h1>
-            <p>I threw together a simple API that pulls from Mars Rovers [Curiosity, Opportunity, and Spirit].</p>
+            <p>I threw together a simple API that pulls from Mars Rovers [Curiosity and Opportunity].</p>
         </header>
         <main>
-            <div class="randomMars"><img src="" class="randomMarsPic"></div>
-			<button class="randomButton">Get Another MARS Pic!</button>
+            <div class="buttons">
+            	<div class="opportunitybtn">
+            		<div class="randomOpportunityMars"><img src="" class="randomMarsPic"></div>
+					<button class="randomOpportunityButton">Get Another Opportunity Pic!</button>
+				</div>
+				<!-- <div class="randomPic"><img src="" class="randomMarsPic"></div> -->
+				<div class="curiositybtn">
+					<div class="randomCuriosityMars"><img src="" class="randomMarsPic"></div>
+					<button class="randomCuriosityButton">Get Another Curiosity Pic!</button>
+				</div>
+			</div>
         </main>
         <footer>
         	<h5 class="footer">A special thanks to the NASA Open Innovation Team for providing this awesome open source API</h5>
