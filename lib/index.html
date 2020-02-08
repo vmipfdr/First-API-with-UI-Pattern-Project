@@ -10,20 +10,22 @@
     </head>
     <body>
         <header class="header">
-            <h1 class="title">Mars Rover Pics API</h1>
+            <h1 class="title">NASA API for Rover Pictures</h1>
             <p>I threw together a simple API that pulls from Mars Rovers [Curiosity and Opportunity].</p>
         </header>
         <main>
-			<div class="slideshow-container">
-			
-			  <!-- Full-width images with number and caption text -->
-			  <div class="mySlides">
-			    <div class="rovertext">'Opportunity' / 'Curiosity'</div>
-			    <img class="randomMarsPic" src="" style="width:100%">
-			    <div class="opportunityText"></div>
-			  </div>
-			  <a class="randomOpportunityButton">&#10094;</a>
-			  <a class="randomCuriosityButton">&#10095;</a>
+        	<div class="content">
+        		<div class="opportunity">
+					<a class="randomOpportunityButton">&#10094;</a>
+					<p class="randomOpportunityText">A random day in the life of the Opportunity MARS Rover</p>
+        		</div>
+				<div class="slideshow-container">
+				  <div class="mySlides"><img class="randomMarsPic" src="" style="width:100%"></div>
+				</div>
+				<div class="curiosity">
+					<a class="randomCuriosityButton">&#10095;</a>
+					<p class="randomCuriosityText">A random day in the life of the Curiosity MARS Rover</p>
+				</div>
 			</div>
         </main>
         <footer>
@@ -32,19 +34,3 @@
         <script src="script.js"></script>
     </body>
 </html>
-
-
-
-
-<!-- 
-            <div class="buttons">
-            	<div class="opportunitybtn">
-            		<div class="randomOpportunityMars"><img src="" class="randomMarsPic"></div>
-					<button class="randomOpportunityButton">Get Another Opportunity Pic!</button>
-				</div>
-				<div class="randomPic"><img src="" class="randomMarsPic"></div>
-				<div class="curiositybtn">
-					<div class="randomCuriosityMars"><img src="" class="randomMarsPic"></div>
-					<button class="randomCuriosityButton">Get Another Curiosity Pic!</button>
-				</div>
-			</div> -->
