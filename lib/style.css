@@ -3,7 +3,9 @@ body {
     font-family: Helvetica, 'Source Sans Pro', sans-serif;
     background-image: url('PIA17273_artist-concept-plain.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-position: : center center;
+    background-attachment: fixed;
+    background-size: cover;
     display: flex;
     flex-direction: column;
 }
@@ -26,16 +28,53 @@ body {
 .content {
     display: flex;
     align-items: row;
-    justify-content: space-around;
-    height: 100vh;
+    justify-content: center;
+    height: 90vh;
+    margin: 20px;
 }
 
-.opportunity {
-    width: 400px;
+.randomOpportunityButton, .randomCuriosityButton {
+    cursor: pointer;
+    position: absolute;
+    top: 53vh;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    user-select: none;
+    border: none;
+}
+
+.randomText {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.randomText:hover {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.4);
+    border: 2px solid white;
+}
+
+.opportunity, .curiosity {
+    width: 200px;
     padding: 20px;
     display: flex;
     justify-content: right;
-    border: 2px solid black;
+    align-items: center;
+}
+
+.curiosity {
+    justify-content: left;
 }
 
 .randomOpportunityButton:hover {
@@ -46,26 +85,33 @@ body {
 
 
 .slideshow-container {
-    max-width: 1000px auto;
+    max-width: 1200px auto;
+    width: 1000px;
     height: auto;
     position: center;
+    display: flex;
+    align-items: center;
     margin: 10px 10px 10px 0 auto;
+}
+
+.guidanceText {
+    padding: 15vh 12vh 15vh;
+    font-size: 40px;
+    text-align: center;
+    text-overflow: wrap;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    line-height: 48px;
+    text-anchor: center;
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 25px 25px 25px 25px;
 }
 
 img {
-    width: 1000px auto;
-/*    max-width: 100%;*/
+    width: 1200px auto;
     border-radius: 10px;
-    margin: 10px 10px 10px 0 auto;
-    box-shadow: 20px 20px 42px -12px rgba(0,0,0,0.75);
-}
-
-.curiosity {
-    width: 400px;
-    padding: 20px;
-    display: flex;
-    justify-content: left;
-    border: 2px solid black;
+    margin: 10px 10px 10px 10px auto;
 }
 
 .randomCuriosityButton:hover {
@@ -89,21 +135,9 @@ img {
     margin-top: auto;
 }
 
-* {box-sizing:border-box}
+/** {box-sizing:border-box}
+*/
 
-.randomOpportunityButton, .randomCuriosityButton {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: black;
-    font-weight: bold;
-    font-size: 30px;
-    transition: 0.6s ease;
-    user-select: none;
-}
 
 
 .text {
@@ -117,7 +151,7 @@ img {
 }
 
 
-@-webkit-keyframes fade {
+/*@-webkit-keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
 }
@@ -125,7 +159,7 @@ img {
 @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
-}
+}*/
 
 
 
